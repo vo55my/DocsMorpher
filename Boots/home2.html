@@ -54,9 +54,8 @@
       height: 300px;
       margin-left: 40px;
       padding: 20px 0 100px;
-      background-color: #77D0C6;
       text-align: center;
-      border-radius: 4px;
+      border-radius: 14px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       border: 2px dashed #6788ad;
     }
@@ -65,6 +64,22 @@
     color:#77D0C6;
     font-size: 3.1rem;
     font-weight: bold;
+    }
+    .gambar2{
+        width: 100px;
+        height: 100px;
+    }
+    .classs{
+        width: 419px;
+        height: 273.2px;
+        background-color: antiquewhite;
+        border-radius: 20px;
+
+    }
+    .classs img{
+       width: 50%;
+       height: 50%;
+       margin-top: 30px;
     }
 
   </style>
@@ -113,53 +128,71 @@
     </div>
 </section>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class= "title">
         <p>Best used</p>
-    </div>
+      </div>
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="class1">
-          <h3>Class 1</h3>
-          <!-- Content for Class 1 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="classs">
+              <h3>Class 1</h3>
+              <img src="/Assets/PDF DOC.png" alt="Foto" class="gambar2">
+              <!-- Content for Class 1 -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="classs">
+              <h3>Class 2</h3>
+              <img src="/Assets/PDF DOC.png" alt="Foto" class="gambar2">
+              <!-- Content for Class 2 -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="classs">
+              <h3>Class 3</h3>
+              <img src="/Assets/PDF DOC.png" alt="Foto" class="gambar2">
+              <!-- Content for Class 3 -->
+            </div>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="class2">
-          <h3>Class 2</h3>
-          <!-- Content for Class 2 -->
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="class3">
-          <h3>Class 3</h3>
-          <!-- Content for Class 3 -->
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="class4">
-          <h3>Class 4</h3>
-          <!-- Content for Class 4 -->
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="class5">
-          <h3>Class 5</h3>
-          <!-- Content for Class 5 -->
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="class6">
-          <h3>Class 6</h3>
-          <!-- Content for Class 6 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="classs">
+              <h3>Class 4</h3>
+              <img src="/Assets/PDF DOC.png" alt="Foto" class="gambar2">
+              <!-- Content for Class 4 -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="classs">
+              <h3>Class 5</h3>
+              <img src="/Assets/PDF DOC.png" alt="Foto" class="gambar2">
+              <!-- Content for Class 5 -->
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="classs">
+              <h3>Class 6</h3>
+              <img src="/Assets/PDF DOC.png" alt="Foto" class="gambar2">
+              <!-- Content for Class 6 -->
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -192,5 +225,27 @@
     </div>
 </footer>
 
+
+<script>
+    $(document).ready(function() {
+      $('#myCarousel').carousel({
+        interval: false,
+        wrap: false
+      });
+
+      // Enable Carousel Indicators
+      $('.item').click(function() {
+        $('#myCarousel').carousel($(this).index());
+      });
+
+      // Enable Carousel Controls
+      $('.carousel-control-prev').click(function() {
+        $('#myCarousel').carousel('prev');
+      });
+      $('.carousel-control-next').click(function() {
+        $('#myCarousel').carousel('next');
+      });
+    });
+  </script>
 </body>
 </html>
