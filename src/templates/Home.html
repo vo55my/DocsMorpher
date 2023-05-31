@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <title>DocsMorpher</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom" aria-label="Offcanvas navbar large">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/src/public/icons/Logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <img src="/src/public/icons/Logo.png" alt="Logo">
+            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown-center">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PDF Tools
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end pe-5">
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO DOC PDF.png" alt="Word to PDF" class="w-25"> Word to PDF</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO JPG PDF.png" alt="JPG to PDF" class="w-25"> JPG to PDF</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO PPT PDF.png" alt="Powerpoint to PDF" class="w-25"> Powerpoint to PDF</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO XSL PDF.png" alt="Excel to PDF" class="w-25"> Excel to PDF</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO PDF DOC.png" alt="PDF to Word" class="w-25"> PDF to Word</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO PDF JPG.png" alt="PDF to JPG" class="w-25"> PDF to JPG</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO PDF PPT.png" alt="PDF to Powerpoint" class="w-25"> PDF to Powerpoint</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="/src/public/icons/LOGO PDF XSL.png" alt="PDF to Excel" class="w-25"> PDF to Excel</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="jumbotron pt-5 mt-5 d-flex">
+      <div class="container text-center py-5 my-5 col-8 text-center align-items-center justify-content-center">
+        <h1 class="display-1">Welcome to DocsMorpher</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui omnis numquam unde excepturi harum laboriosam distinctio suscipit dolorem aliquid id!</p>
+        <button type="button" class="btn btn-primary shadow-lg">Explore All PDF Tools</button>
+      </div>
+    </section>
+
+    <section class="tools">
+      <div class="container py-5 d-flex">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-lg-6 text-center">
+            <h1>Most Popular PDF Tools</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vero asperiores facilis voluptatum quibusdam libero omnis corporis facere harum atque.</p>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                  <img src="/src/public/icons/LOGO PDF DOC.png" class="justify-content-center w-75" alt="PDF to Word">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="/src/public/icons/LOGO JPG PDF.png" class="justify-content-center w-75" alt="JPG to PDF">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="/src/public/icons/LOGO PDF DOC.png" class="justify-content-center w-75" alt="PDF to Word">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="/src/public/icons/LOGO PDF JPG.png" class="justify-content-center w-75" alt="PDF to JPG">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="/src/public/icons/LOGO PDF PPT.png" class="justify-content-center w-75" alt="PDF to Powerpoint">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="/src/public/icons/LOGO PDF XSL.png" class="justify-content-center w-75" alt="PDF to Excel">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="/src/public/icons/LOGO PPT PDF.png" class="justify-content-center w-75" alt="Powerpoint to PDF">
+                </div>
+                <div class="carousel-item text-center">
+                  <img src="/src/public/icons/LOGO XSL PDF.png" class="justify-content-center w-75" alt="Excel to PDF">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-1">
+      <div class="container pb-5 d-flex">
+        <div class="row text-center align-items-center">
+          <div class="col-sm-12 col-lg-6">
+            <img src="/src/public/ilustration/manager.png" alt="Feature-1" class="img-fluid w-75">
+          </div>
+          <div class="col-sm-12 col-lg-6 pt-2">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt quaerat vitae maxime suscipit iure magnam tenetur debitis aperiam cumque?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-2">
+      <div class="container py-5 d-flex">
+        <div class="row text-center align-items-center">
+          <div class="col-sm-12 col-lg-6">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt quaerat vitae maxime suscipit iure magnam tenetur debitis aperiam cumque?</p>
+          </div>
+          <div class="col-sm-12 col-lg-6 pb-2">
+            <img src="/src/public/ilustration/marketer.png" alt="Feature-2" class="img-fluid w-75">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-3">
+      <div class="container py-5 d-flex">
+        <div class="row text-center align-items-center">
+          <div class="col-sm-12 col-lg-6">
+            <img src="/src/public/ilustration/validation.png" alt="Feature-3" class="img-fluid w-75">
+          </div>
+          <div class="col-sm-12 col-lg-6 pt-2">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt quaerat vitae maxime suscipit iure magnam tenetur debitis aperiam cumque?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container-fluid pt-3 pb-3 border-top bg-light">
+    <p class="text-center">&copy; 2023 DocsMorpher - Made with ❤ for the people of the internet</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
