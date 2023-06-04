@@ -1,4 +1,7 @@
 import 'regenerator-runtime';
+import 'lodash.filter';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import '../styles/main.css';
 import Main from './views/main';
 import swRegister from './utils/sw-register';

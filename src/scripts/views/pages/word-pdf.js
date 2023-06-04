@@ -4,7 +4,7 @@ const WordPdf = {
     <section class="container d-flex justify-content-center my-4 py-5">
             <div class="bg-primary text-center rounded py-5 my-4 col-lg-8">
                 <h1>Word to PDF</h1>
-                <img src="/icons/LOGO DOC PDF.png" alt="Word to PDF" class="w-25 img-fluid">
+                <img src="/icons/LOGO DOC PDF.webp" alt="Word to PDF" class="w-25 img-fluid lazyload">
                 <div class="row justify-content-center">
                     <label for="formFileLg" class="form-label">Silahkan Upload File</label>
                     <div class="col-7 col-lg-8 col-md-8 col-sm-8"><input class="form-control" id="formFileLg" type="file" placeholder="Pilih File"></div>
