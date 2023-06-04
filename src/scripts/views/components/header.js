@@ -9,14 +9,14 @@ class Header extends HTMLElement {
     <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="/icons/Logo.png" alt="Logo">
+          <img data-src="/icons/Logo.webp" alt="Logo" class="lazyload">
         </a>
         <button id="hamburgerButton" class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
-            <img src="/icons/Logo.png" alt="Logo">
+            <img data-src="/icons/Logo.webp" alt="Logo" class="lazyload">
             <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div id="navigationDrawer" class="offcanvas-body">
@@ -29,14 +29,14 @@ class Header extends HTMLElement {
                   PDF Tools
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end pe-5">
-                  <li><a class="dropdown-item" href="#/word-pdf"><img src="/icons/LOGO DOC PDF.png" alt="Word to PDF" class="w-25"> Word to PDF</a></li>
-                  <li><a class="dropdown-item" href="#/jpg-pdf"><img src="/icons/LOGO JPG PDF.png" alt="JPG to PDF" class="w-25"> JPG to PDF</a></li>
-                  <li><a class="dropdown-item" href="#/powerpoint-pdf"><img src="/icons/LOGO PPT PDF.png" alt="Powerpoint to PDF" class="w-25"> Powerpoint to PDF</a></li>
-                  <li><a class="dropdown-item" href="#/excel-pdf"><img src="/icons/LOGO XSL PDF.png" alt="Excel to PDF" class="w-25"> Excel to PDF</a></li>
-                  <li><a class="dropdown-item" href="#/pdf-word"><img src="/icons/LOGO PDF DOC.png" alt="PDF to Word" class="w-25"> PDF to Word</a></li>
-                  <li><a class="dropdown-item" href="#/pdf-jpg"><img src="/icons/LOGO PDF JPG.png" alt="PDF to JPG" class="w-25"> PDF to JPG</a></li>
-                  <li><a class="dropdown-item" href="#/pdf-powerpoint"><img src="/icons/LOGO PDF PPT.png" alt="PDF to Powerpoint" class="w-25"> PDF to Powerpoint</a></li>
-                  <li><a class="dropdown-item" href="#/pdf-excel"><img src="/icons/LOGO PDF XSL.png" alt="PDF to Excel" class="w-25"> PDF to Excel</a></li>
+                  <li><a class="dropdown-item" href="#/word-pdf"><img data-src="/icons/LOGO DOC PDF.webp" alt="Word to PDF" class="w-25 lazyload"> Word to PDF</a></li>
+                  <li><a class="dropdown-item" href="#/jpg-pdf"><img data-src="/icons/LOGO JPG PDF.webp" alt="JPG to PDF" class="w-25 lazyload"> JPG to PDF</a></li>
+                  <li><a class="dropdown-item" href="#/powerpoint-pdf"><img data-src="/icons/LOGO PPT PDF.webp" alt="Powerpoint to PDF" class="w-25 lazyload"> Powerpoint to PDF</a></li>
+                  <li><a class="dropdown-item" href="#/excel-pdf"><img data-src="/icons/LOGO XSL PDF.webp" alt="Excel to PDF" class="w-25 lazyload"> Excel to PDF</a></li>
+                  <li><a class="dropdown-item" href="#/pdf-word"><img data-src="/icons/LOGO PDF DOC.webp" alt="PDF to Word" class="w-25 lazyload"> PDF to Word</a></li>
+                  <li><a class="dropdown-item" href="#/pdf-jpg"><img data-src="/icons/LOGO PDF JPG.webp" alt="PDF to JPG" class="w-25 lazyload"> PDF to JPG</a></li>
+                  <li><a class="dropdown-item" href="#/pdf-powerpoint"><img data-src="/icons/LOGO PDF PPT.webp" alt="PDF to Powerpoint" class="w-25 lazyload"> PDF to Powerpoint</a></li>
+                  <li><a class="dropdown-item" href="#/pdf-excel"><img data-src="/icons/LOGO PDF XSL.webp" alt="PDF to Excel" class="w-25 lazyload"> PDF to Excel</a></li>
                 </ul>
               </li>
               <li class="nav-item">
