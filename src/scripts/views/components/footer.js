@@ -5,9 +5,9 @@ class Footer extends HTMLElement {
 
   render() {
     this.innerHTML = `
-    <footer class="container-fluid pt-3 pb-3 border-top bg-light">
-    <p class="text-center">&copy; 2023 DocsMorpher - Made with ❤ for the people of the internet</p>
-  </footer>
+    <footer class="container-fluid pt-3 pb-3">
+      <p class="text-center">&copy; 2023 DocsMorpher - Made with ❤ for the people of the internet</p>
+    </footer>
     `;
   }
 }

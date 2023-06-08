@@ -2,7 +2,8 @@ import 'regenerator-runtime';
 import 'lodash.filter';
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
-import '../styles/main.css';
+import '../styles/main.scss';
+import AOS from 'aos';
 import Main from './views/main';
 import swRegister from './utils/sw-register';
 
@@ -17,4 +18,10 @@ window.addEventListener('hashchange', () => {
 window.addEventListener('load', () => {
   main.renderPage();
   swRegister();
+});
+
+AOS.init({
+  once: false,
+  mirror: true,
+  duration: 700,
 });

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #F6F1F1;
+}
+
+.navbar,
+.offcanvas-header,
+footer,
+#navigationDrawer,
+.btn {
+  background-color: #19A7CE;
+}
+
+.dropdown-menu {
+  background-color: #19A7CE;
+
+  a:hover {
+    background-color: #146C94;
+  }
+}
+
+.input {
+  background-color: #AFD3E2;
+}
+
+.navbar a li,
+.navbar-toggler-icon,
+.nav-link,
+.btn-close,
+.btn,
+footer,
+.dropdown-menu a {
+  color: #F6F1F1;
+}
+
+.navbar a:hover {
+  color: #AFD3E2;
+}
+
+.jumbotron,
+#tools p,
+#feature-1 p,
+#feature-2 p,
+#feature-3 p,
+.profil a,
+.navbar a:active,
+.form-label {
+  color: #146C94;
+}
+
+h1,
+.nama,
+.univ,
+.profil a:hover {
+  color: #19A7CE;
+}
