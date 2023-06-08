@@ -1,6 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const TerserPlugin = require('terser-webpack-plugin');
 const path = require('path');
 
@@ -67,6 +66,5 @@ module.exports = {
         },
       ],
     }),
-    new BundleAnalyzerPlugin(),
   ],
 };
