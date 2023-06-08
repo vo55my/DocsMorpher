@@ -3,9 +3,9 @@
       "start_url": "./index.html",
       "name": "DocsMorpher",
       "short_name": "DocsMorpher",
-      "description": "",
+      "description": "Konversi Dokumen Anda",
       "display": "standalone",
-      "background_color": "#19A7CE",
+      "background_color": "#FFFFFF",
       "theme_color": "#19A7CE",
       "icons": [
         {
