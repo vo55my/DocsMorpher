@@ -5,8 +5,8 @@
       "short_name": "DocsMorpher",
       "description": "",
       "display": "standalone",
-      "background_color": "#FFFFFF",
-      "theme_color": "#D84315",
+      "background_color": "#19A7CE",
+      "theme_color": "#19A7CE",
       "icons": [
         {
           "src": "/icons/icon-72x72.png",
