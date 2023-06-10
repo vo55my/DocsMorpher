@@ -5,6 +5,7 @@ const About = {
     return `
     <div class="loading"></div>
     <about-section></about-section>
+    <footer-section></footer-section>
     `;
   },
 

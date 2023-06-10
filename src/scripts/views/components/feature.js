@@ -19,13 +19,13 @@ class Feature extends HTMLElement {
                   <img data-src="/icons/LOGO PDF DOC.webp" class="justify-content-center w-75 lazyload" alt="PDF to Word">
                 </div>
                 <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO JPG PDF.webp" class="justify-content-center w-75 lazyload" alt="JPG to PDF">
+                  <img data-src="/icons/LOGO IMG PDF.webp" class="justify-content-center w-75 lazyload" alt="IMG to PDF">
                 </div>
                 <div class="carousel-item text-center">
                   <img data-src="/icons/LOGO PDF DOC.webp" class="justify-content-center w-75 lazyload" alt="PDF to Word">
                 </div>
                 <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO PDF JPG.webp" class="justify-content-center w-75 lazyload" alt="PDF to JPG">
+                  <img data-src="/icons/LOGO PDF IMG.webp" class="justify-content-center w-75 lazyload" alt="PDF to IMG">
                 </div>
                 <div class="carousel-item text-center">
                   <img data-src="/icons/LOGO PDF PPT.webp" class="justify-content-center w-75 lazyload" alt="PDF to Powerpoint">
