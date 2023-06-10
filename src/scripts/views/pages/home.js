@@ -6,6 +6,7 @@ const Home = {
     <div class="loading"></div>
     <jumbotron-section></jumbotron-section>
     <feature-section></feature-section>
+    <footer-section></footer-section>
     `;
   },
 
