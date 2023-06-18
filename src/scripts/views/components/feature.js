@@ -16,28 +16,19 @@ class Feature extends HTMLElement {
             <div id="carouselExample" class="carousel slide" data-aos="flip-left">
               <div class="carousel-inner">
                 <div class="carousel-item active text-center">
-                  <img data-src="/icons/LOGO PDF DOC.webp" class="justify-content-center w-75 lazyload" alt="PDF to Word">
-                </div>
-                <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO IMG PDF.webp" class="justify-content-center w-75 lazyload" alt="IMG to PDF">
-                </div>
-                <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO PDF DOC.webp" class="justify-content-center w-75 lazyload" alt="PDF to Word">
-                </div>
-                <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO PDF IMG.webp" class="justify-content-center w-75 lazyload" alt="PDF to IMG">
-                </div>
-                <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO PDF PPT.webp" class="justify-content-center w-75 lazyload" alt="PDF to Powerpoint">
-                </div>
-                <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO PDF XSL.webp" class="justify-content-center w-75 lazyload" alt="PDF to Excel">
+                  <img data-src="/icons/LOGO DOC PDF.webp" class="justify-content-center w-75 lazyload" alt="Word to PDF">
                 </div>
                 <div class="carousel-item text-center">
                   <img data-src="/icons/LOGO PPT PDF.webp" class="justify-content-center w-75 lazyload" alt="Powerpoint to PDF">
                 </div>
                 <div class="carousel-item text-center">
                   <img data-src="/icons/LOGO XSL PDF.webp" class="justify-content-center w-75 lazyload" alt="Excel to PDF">
+                </div>
+                <div class="carousel-item text-center">
+                  <img data-src="/icons/LOGO IMG PDF.webp" class="justify-content-center w-75 lazyload" alt="IMG to PDF">
+                </div>
+                <div class="carousel-item text-center">
+                  <img data-src="/icons/LOGO PDF IMG.webp" class="justify-content-center w-75 lazyload" alt="PDF to IMG">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

@@ -1,5 +1,4 @@
 import 'regenerator-runtime';
-import 'lodash.filter';
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import '../styles/main.scss';
