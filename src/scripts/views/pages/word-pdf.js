@@ -9,7 +9,7 @@ const WordPdf = {
                 <h1 class="display-4 fw-bold">Word to PDF</h1>
                 <img data-src="/icons/LOGO DOC PDF.webp" alt="Word to PDF" class="w-25 img-fluid lazyload">
                 <div class="row justify-content-center text-center">
-                    <label for="formFileLg" class="form-label fs-5 py-3">Silahkan Upload File</label>
+                    <label for="formFileLg" class="form-label fs-5 py-3">Silahkan Upload File DOC/DOCX (Maks. 5MB)</label>
                     <div class="px-5 mx-5"><input class="form-control fs-5" id="formFileLg" type="file" placeholder="Pilih File"></div>
                     <div class="pt-3"><button type="button" class="btn btn-primary shadow-lg fs-5 border-0 p-2">Convert</button></div>
                 </div>

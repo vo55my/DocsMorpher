@@ -27,9 +27,6 @@ class Feature extends HTMLElement {
                 <div class="carousel-item text-center">
                   <img data-src="/icons/LOGO IMG PDF.webp" class="justify-content-center w-75 lazyload" alt="IMG to PDF">
                 </div>
-                <div class="carousel-item text-center">
-                  <img data-src="/icons/LOGO PDF IMG.webp" class="justify-content-center w-75 lazyload" alt="PDF to IMG">
-                </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
