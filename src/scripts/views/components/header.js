@@ -30,13 +30,10 @@ class Header extends HTMLElement {
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
                   <li><a class="dropdown-item" href="#/word-pdf"><img data-src="/icons/LOGO DOC PDF.webp" alt="Word to PDF" class="w-25 lazyload"> Word to PDF</a></li>
-                  <li><a class="dropdown-item" href="#/img-pdf"><img data-src="/icons/LOGO IMG PDF.webp" alt="IMG to PDF" class="w-25 lazyload"> IMG to PDF</a></li>
                   <li><a class="dropdown-item" href="#/powerpoint-pdf"><img data-src="/icons/LOGO PPT PDF.webp" alt="Powerpoint to PDF" class="w-25 lazyload"> PPT to PDF</a></li>
                   <li><a class="dropdown-item" href="#/excel-pdf"><img data-src="/icons/LOGO XSL PDF.webp" alt="Excel to PDF" class="w-25 lazyload"> Excel to PDF</a></li>
-                  <li><a class="dropdown-item" href="#/pdf-word"><img data-src="/icons/LOGO PDF DOC.webp" alt="PDF to Word" class="w-25 lazyload"> PDF to Word</a></li>
+                  <li><a class="dropdown-item" href="#/img-pdf"><img data-src="/icons/LOGO IMG PDF.webp" alt="IMG to PDF" class="w-25 lazyload"> IMG to PDF</a></li>
                   <li><a class="dropdown-item" href="#/pdf-img"><img data-src="/icons/LOGO PDF IMG.webp" alt="PDF to IMG" class="w-25 lazyload"> PDF to IMG</a></li>
-                  <li><a class="dropdown-item" href="#/pdf-powerpoint"><img data-src="/icons/LOGO PDF PPT.webp" alt="PDF to Powerpoint" class="w-25 lazyload"> PDF to PPT</a></li>
-                  <li><a class="dropdown-item" href="#/pdf-excel"><img data-src="/icons/LOGO PDF XSL.webp" alt="PDF to Excel" class="w-25 lazyload"> PDF to Excel</a></li>
                 </ul>
               </li>
               <li class="nav-item">
