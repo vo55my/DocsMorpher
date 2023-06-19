@@ -9,9 +9,11 @@ const PowerpointPdf = {
                 <h1 class="display-4 fw-bold">Powerpoint to PDF</h1>
                 <img data-src="/icons/LOGO PPT PDF.webp" alt="Powerpoint to PDF" class="w-25 img-fluid lazyload">
                 <div class="row justify-content-center">
+                  <form action="http://localhost:5000/upload" method="post" enctype="multipart/form-data">
                     <label for="formFileLg" class="form-label fs-5 py-3">Silahkan Upload File PPT/PPTX (Maks. 5MB)</label>
-                    <div class="px-5 mx-5"><input class="form-control fs-5" id="formFileLg" type="file" placeholder="Pilih File"></div>
-                    <div class="pt-3"><button type="button" class="btn btn-primary shadow-lg fs-5 border-0 p-2">Convert</button></div>
+                    <div class="px-5 mx-5"><input class="form-control fs-5" id="formFileLg" type="file" name="document" accept=".ppt, .pptx"  placeholder="Pilih File"></div>
+                    <div class="pt-3"><button type="submit" value="Upload" class="btn btn-primary shadow-lg fs-5 border-0 p-2">Convert</button></div>
+                  </form>
                 </div>
             </div>
         </section>
