@@ -1,4 +1,4 @@
-(self["webpackChunkdocsmorpher"] = self["webpackChunkdocsmorpher"] || []).push([[713],{
+(self["webpackChunkdocsmorpher"] = self["webpackChunkdocsmorpher"] || []).push([[95],{
 
 /***/ 711:
 /***/ (function(module) {
@@ -95,6 +95,39 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ 667:
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -1124,4 +1157,4 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ })
 
 }]);
-//# sourceMappingURL=713.bundle.js.map
+//# sourceMappingURL=95.bundle.js.map
