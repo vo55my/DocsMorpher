@@ -11,7 +11,7 @@ class Header extends HTMLElement {
         <a class="navbar-brand" href="#">
           <img data-src="/icons/Logo.webp" alt="Logo" class="lazyload">
         </a>
-        <button id="hamburgerButton" class="navbar-toggler border-0 p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        <button id="hamburgerButton" class="navbar-toggler border-0 p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Hamburger Button">
           <span class="navbar-toggler-icon fs-2"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
