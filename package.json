@@ -7,7 +7,7 @@
     "start-dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ./src",
-    "server": "node server.js"
+    "server": "node index.js"
   },
   "repository": {
     "type": "git",
