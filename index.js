@@ -104,6 +104,12 @@ function streamToString(stream) {
   });
 }
 
+app.use(express.static('dist'));
+
+app.get('/', (request, response) => {
+  response.sendFile(path.resolve(__dirname, 'dist/index.html'));
+});
+
 app.listen(port, () => {
   console.log(`Server berjalan di http://localhost:${port}`);
 });
