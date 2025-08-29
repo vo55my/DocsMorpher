@@ -89,12 +89,12 @@ const Header = () => {
                 >
                   <Image
                     src="/icons/LOGO DOC PDF.webp"
-                    alt="Word to PDF"
+                    alt="Doc to PDF"
                     width={20}
                     height={20}
                     className="h-5 w-5 mr-2"
                   />
-                  Word to PDF
+                  DOC to PDF
                 </Link>
                 <Link
                   href="/excel-pdf"
@@ -103,12 +103,12 @@ const Header = () => {
                 >
                   <Image
                     src="/icons/LOGO XSL PDF.webp"
-                    alt="Excel to PDF"
+                    alt="XSL to PDF"
                     width={20}
                     height={20}
                     className="h-5 w-5 mr-2"
                   />
-                  Excel to PDF
+                  XSL to PDF
                 </Link>
                 <Link
                   href="/ppt-pdf"

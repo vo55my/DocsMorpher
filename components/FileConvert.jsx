@@ -26,7 +26,7 @@ export default function FileConvert({ title, imageSrc, fileHelpText, }) {
               encType="multipart/form-data"
               className="w-full"
             >
-              <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
+              <div className="border-2 border-dashed border-gray-300 rounded-lg lg:p-6 p-2 text-center">
                 <label
                   htmlFor="file_input"
                   className="block mb-2 text-sm font-medium text-gray-900"

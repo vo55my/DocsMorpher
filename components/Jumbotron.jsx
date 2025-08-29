@@ -12,7 +12,7 @@ const Jumbotron = () => {
 
   return (
     <section className="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600">
-      <div className="container max-w-4xl text-center text-white">
+      <div className="container max-w-4xl mx-5 text-center text-white">
         <h1
           id="judul"
           className="text-4xl md:text-6xl font-extrabold leading-tight"

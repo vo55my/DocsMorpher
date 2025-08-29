@@ -1,1 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
 @import "tailwindcss";
+
+body {
+  font-family: 'TASA Orbiter', sans-serif;
+}
